@@ -18,7 +18,7 @@ export default function Hero() {
             transition={{ type: "spring" }}
           >
             <img
-              src="public\mario.png"
+              src="/public/mario.png"
               alt="Mario Garbo Portrait"
               width={152}
               height={152}
