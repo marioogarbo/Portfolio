@@ -24,3 +24,20 @@ export const links = [
     path: "/contact",
   },
 ];
+
+export const skillsData = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Node.js",
+  "Git",
+  "Tailwind",
+  "MongoDB",
+  "Express",
+  "Python",
+  "Django",
+  "Framer Motion",
+];

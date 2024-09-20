@@ -9,9 +9,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* 
+:root {
+  --color-bg1: ;
+  --color-bg2: 
+  --color1: 18, 113, 255;
+  --color2: 221, 74, 255;
+  --color3: 100, 220, 255;
+  --color4: 200, 50, 50;
+  --color5: 180, 180, 50;
+  --color-interactive: 140, 100, 255;
+  --circle-size: 80%;
+  --blending: hard-light;
+} */
 
-body {
+html {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(249 250 251);
-  color: rgb(2 6 23);
+  /* background-color: rgb(249 250 251); */
+  /* background-image: linear-gradient(to right, #f56565, #ed8936); */
+  background: linear-gradient(rgb(108, 0, 162), rgb(0, 17, 82));
+  width: 100vw;
+  height: 100vh;
+  color: rgb(249 250 251);
 }

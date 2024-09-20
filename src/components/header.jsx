@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { links } from "../data/data";
 import { Link } from "react-router-dom";
 
-export default function Navbar() {
+export default function Header() {
   return (
     <header className="z-[999] relative">
       <motion.div

@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className="mb-20 max-w-[50rem] text-center sm:mb-[162px]"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -39,7 +39,7 @@ export default function Hero() {
         </div>
       </div>
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-2xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
@@ -52,11 +52,11 @@ export default function Hero() {
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
-        // initial={{ opacity: 0, y: 100 }}
-        // animate={{ opacity: 1, y: 0 }}
-        // transition={{
-        //   delay: 0.1,
-        // }}
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          delay: 0.1,
+        }}
       >
         <Link
           to={"./contact"}
