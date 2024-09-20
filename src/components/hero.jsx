@@ -19,7 +19,8 @@ export default function Hero() {
           >
             <img
               src="public/mario.jpg"
-              srcSet="/mario.jpg 1x, /mario@2x.jpg 2x"
+              // srcSet="/mario.jpg 1x, /mario@2x.jpg 2x"
+              srcSet="/mario.jpg 480w, /mario.jpg 800w, /mario.jpg 1200w"
               alt="Mario Garbo Portrait"
               width={152}
               height={152}
