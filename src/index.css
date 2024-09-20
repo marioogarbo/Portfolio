@@ -28,7 +28,7 @@ html {
   /* background-color: rgb(249 250 251); */
   /* background-image: linear-gradient(to right, #f56565, #ed8936); */
   background: linear-gradient(rgb(108, 0, 162), rgb(0, 17, 82));
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   color: rgb(249 250 251);
 }
