@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="mb-[10rem] mt-11 max-w-[50rem] text-center sm:mb-[162px]"
+      className="mb-[10rem] mt-11 max-w-[50rem] text-center sm:mb-[109px] sm:mt-5 "
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -25,7 +25,7 @@ export default function Hero() {
               alt="Mario Garbo Portrait"
               width={152}
               height={152}
-              className="rounded-full border-[#697565] border-4 shadow-xl"
+              className="rounded-full border-[#697565] border-4 shadow-xl sm:h-40 sm:w-40"
               fetchPriority="high" // load this first //update not working
               loading="eager"
             />
@@ -43,14 +43,14 @@ export default function Hero() {
         </div>
       </div>
       <motion.h1
-        className="mb-4 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-2xl"
+        className="mb-4 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-3xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hi, I'm Mario.</span> a{" "}
         <span className="font-bold text-[#FABC3F] capitalize">full-stack </span>
         web developer passionate about creating{" "}
-        <span className="font-bold">web</span> application. I enjoy building{" "}
+        <span className="font-bold">web</span> applications. I enjoy building{" "}
         <span className="italic">dynamic sites and applications</span>.
       </motion.h1>
 
@@ -62,7 +62,7 @@ export default function Hero() {
           delay: 0.1,
         }}
       >
-        <div className="flex mb-4 sm:gap-4">
+        <div className="flex mb-4 sm:gap-4 gap-2">
           <Link
             to={"./contact"}
             href="#contact"
@@ -77,7 +77,7 @@ export default function Hero() {
           </Link>
 
           <a
-            className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+            className="group bg-[#ECDFCC] text-[#1E201E] px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer"
             href="https://drive.google.com/file/d/1wwQtKaBvRJXc9vh5pd5HJ0VJzBsdQuz5/view?usp=drive_link"
             target="_blank"
           >
@@ -88,7 +88,7 @@ export default function Hero() {
 
         <div className="flex gap-4 items-center justify-center">
           <a
-            className="flex items-center text-white text-3xl rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
+            className="flex items-center text-[#ECDFCC] text-3xl rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer"
             href="https://github.com/marioogarbo"
             target="_blank"
           >
@@ -96,14 +96,14 @@ export default function Hero() {
           </a>
 
           <a
-            className="flex items-center text-white text-3xl rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer "
+            className="flex items-center text-[#ECDFCC] text-3xl rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer "
             href="https://www.linkedin.com/in/mariojosegarbo/ "
             target="_blank"
           >
             <FaLinkedin />
           </a>
           <a
-            className="flex items-center text-white text-3xl rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer "
+            className="flex items-center text-[#ECDFCC] text-3xl rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer "
             href="https://www.facebook.com/mariojosegarbo"
             target="_blank"
           >
