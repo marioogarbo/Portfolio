@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="mb-[10rem] mt-11 max-w-[50rem] text-center sm:mb-[109px] sm:mt-5 "
+      className="mb-[198px] mt-11 max-w-[50rem] text-center sm:mb-[107px] sm:mt-5 "
     >
       <div className="flex items-center justify-center">
         <div className="relative">

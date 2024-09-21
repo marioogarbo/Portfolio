@@ -16,16 +16,3 @@ html {
   /* background: linear-gradient(rgb(108, 0, 162), rgb(0, 17, 82)); */
   color: rgb(255, 255, 255);
 }
-
-/* Custom themes
-.theme-light {
-  @apply bg-white text-black;
-}
-
-.theme-dark {
-  @apply bg-gray-900 text-white;
-}
-
-.theme-colorful {
-  @apply bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white;
-} */

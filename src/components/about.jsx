@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section className="sm:min-h-[532px] min-h-[616px] max-w-[45rem]">
+    <section className="min-h-[616px] max-w-[45rem]">
       <h2 className="text-3xl font-medium capitalize mb-8 text-center">
         About me
       </h2>
       <motion.div
-        className="mb-28 leading-6 sm:mb-44 text-justify px-6 sm:"
+        className="mb-28 leading-6 sm:mb-24 text-justify px-6"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.175 }}

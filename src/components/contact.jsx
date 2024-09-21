@@ -3,7 +3,7 @@ import SubmitBtn from "./submitBtn";
 
 export default function Contact() {
   return (
-    <section className="mb-24">
+    <section className="mb-24 sm:mb-7">
       <h2 className="text-3xl font-medium capitalize mb-8 text-center">
         Contact
       </h2>
@@ -31,7 +31,7 @@ export default function Contact() {
           or through this form.
         </p>
         <form
-          className="mt-10 flex flex-col my-3 px-4"
+          className="mt-10 flex flex-col my-3 px-4 sm:px-0"
           // action={async (formData) => {
           //   const { data, error } = await sendEmail(formData);
 
