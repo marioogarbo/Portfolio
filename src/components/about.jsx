@@ -24,13 +24,16 @@ export default function About() {
 
         <h1 className="font-semibold mb-2">Hello!</h1>
         <p>
-          I'm Mario Jose Garbo from Antipolo City, Rizal. I am a graduating
-          student taking up BS Information Technology at ICCT College Cainta. As
-          a full stack web developer, I specialize in designing websites and
-          creating APIs. I'm always passionate about exploring new technologies
-          and constantly improving my skills in the field. If you're interested
-          in learning more about my work or have a project in mind, I'd be happy
-          to discuss it with you. Feel free to reach out to me anytime.
+          Hey there! 👋 I'm Mario Jose Garbo, hailing from the beautiful hills
+          of Antipolo City, Rizal, and I'm on the exciting journey of completing
+          my BS Information Technology at ICCT College Cainta! 🎓 As a
+          full-stack web developer, I don’t just design websites – I craft
+          digital experiences and build powerful APIs that bring ideas to life.
+          💻✨ I’m always geeking out over the latest tech, pushing boundaries,
+          and leveling up my skills like it's a video game. 🚀 Whether you're
+          curious about my work or have a cool project brewing, let’s chat and
+          create something awesome together! Hit me up anytime – I’m just a
+          click away. 😎👨‍💻
         </p>
         <h1 className="font-semibold mb-2 mt-8">My Goal!</h1>
         <p>
