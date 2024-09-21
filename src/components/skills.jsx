@@ -19,14 +19,14 @@ const fadeInAnimationVariants = {
 
 export default function Skills() {
   return (
-    <section className="mb-28 max-w-[53rem] scroll-mt-28 text-center sm:mb-[22rem]">
+    <section className="mb-[22rem] max-w-[53rem] text-center sm:mb-[22rem]">
       <h2 className="text-3xl font-medium capitalize mb-8 text-center">
         Technical Skills
       </h2>
       <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
         {skillsData.map((skill, index) => (
           <motion.li
-            className="bg-white borderBlack rounded-xl px-5 py-3"
+            className="bg-[#ECDFCC] borderBlack rounded-xl px-5 py-3"
             key={index}
             initial="initial"
             whileInView="animate"

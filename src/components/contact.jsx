@@ -3,13 +3,13 @@ import SubmitBtn from "./submitBtn";
 
 export default function Contact() {
   return (
-    <section>
+    <section className="mb-24">
       <h2 className="text-3xl font-medium capitalize mb-8 text-center">
         Contact
       </h2>
 
       <motion.section
-        className="mb-20 sm:mb-[88px] w-[min(100%,38rem)] text-center"
+        className="mb-[148px] sm:mb-[88px] w-[min(100%,38rem)] text-center"
         initial={{
           opacity: 0,
         }}
@@ -31,7 +31,7 @@ export default function Contact() {
           or through this form.
         </p>
         <form
-          className="mt-10 flex flex-col my-3"
+          className="mt-10 flex flex-col my-3 px-4"
           // action={async (formData) => {
           //   const { data, error } = await sendEmail(formData);
 
@@ -44,7 +44,7 @@ export default function Contact() {
           // }}
         >
           <input
-            className="h-14 px-4 rounded-lg borderBlack transition-all "
+            className="h-14 px-4 rounded-lg transition-all text-gray-950 bg-[#ECDFCC]"
             name="senderEmail"
             type="email"
             required
@@ -52,7 +52,7 @@ export default function Contact() {
             placeholder="Your email"
           />
           <textarea
-            className="h-52 rounded-lg my-3 borderBlack p-4 transition-all "
+            className="h-52 rounded-lg my-3 borderBlack p-4 transition-all text-gray-950 bg-[#ECDFCC]"
             name="message"
             placeholder="Your message"
             required
